@@ -1,42 +1,10 @@
-.index__h1 {
-  color:#00cc99;
-  font-size: 20px;
-  font-weight: 400;
-}
-.modal.right .modal-dialog {
-  position: fixed;
-  top: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  transform: translate3d(0%, 0, 0);
-}
-
-.modal.right .modal-content {
-  height: 100%;
-  overflow-y: auto;
-}
-.modal {
-  &-content {
-    border-radius: 0;
-    border: none;
-  }
-  &-header {
-    border-bottom: none;
-  }
-  &-body{
-    .card{
-      max-width: 540px;
-    }
-  }
-  &-footer {
-    border-top: none;
-  }
-}
-
-
 .swiper-container {
   width: 100%;
   height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
 }
